@@ -1,6 +1,7 @@
 body {
   background-color: #f3e5d8;
 }
+
 .encabezado {
   background-color: #255538;
   color: white;
@@ -34,22 +35,30 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
   color: white;
-}
-.card {
-    border-radius: 5px;
-    background-color: white;
-    width: 400px;
-    height: 440px;
-   
-}
-.card-img {
-    width: 380px;
-    height: 248px;
-    border-radius: 5px;
-    margin: auto;
-    
 
+}
+
+.card {
+  border-radius: 5px;
+  background-color: white;
+  width: 400px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.card-img {
+ display: flex;
+ align-items: center;
+
+}
+
+.img-receta {
+ width: 380px;
+ height: 248px;
+ border-radius: 5px;
 
 }
