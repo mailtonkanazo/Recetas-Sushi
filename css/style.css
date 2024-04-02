@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 body {
   background-color: #f3e5d8;
+  font-family:"DM Serif Display", serif;
+}
+
+.dm-serif display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .encabezado {
+  font-family:"DM Serif Display", serif;
   background-color: #255538;
   color: white;
   display: flex;
@@ -15,6 +25,8 @@ body {
 }
 
 .hero-images {
+  font-size: 40px;
+  line-height: 70px;
   width: 1239px;
   height: 368px;
   margin: auto;
@@ -26,13 +38,13 @@ body {
   background-size: cover;
   position: relative;
   border-radius: 5px;
-
+  
 }
 
 .titulo-img {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -51,14 +63,25 @@ body {
 }
 
 .card-img {
- display: flex;
- align-items: center;
-
+  width: 380px;
+  height: 248px;
+  border-radius: 5px;
+  margin: auto;
 }
 
 .img-receta {
- width: 380px;
- height: 248px;
- border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+.nombre-receta {
+  color: #7E4333;
+  font-size: 30px;
+  line-height: 0;
+  margin-left: 10px;
+}
+.subtitulo {
+  font-size: 24px;
+  color: #7E4333;
 
 }
