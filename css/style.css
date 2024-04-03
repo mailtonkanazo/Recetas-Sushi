@@ -50,7 +50,14 @@ body {
   color: white;
 
 }
+.cards{
+  display: flex;
+  width: 1239px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
+}
 .card {
   border-radius: 5px;
   background-color: white;
@@ -59,7 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  margin-bottom: 20px;
 }
 
 .card-img {
@@ -80,8 +87,16 @@ body {
   line-height: 0;
   margin-left: 10px;
 }
+.subtitulo-recetas {
+  width: 1239px;
+  display: flex;
+  margin: auto;
+
+}
+
 .subtitulo {
+  display: flex;
+  justify-content: flex-start;
   font-size: 24px;
   color: #7E4333;
-
 }
