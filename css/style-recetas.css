@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+body {
+  background-color: #f3e5d8;
+  font-family:"DM Serif Display", serif;
+}
+
+.encabezado {
+    font-family:"DM Serif Display", serif;
+    background-color: #255538;
+    color: white;
+    display: flex;
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .img {
+    font-size: 40px;
+    line-height: 70px;
+    width: 1239px;
+    height: 368px;
+    margin: auto;
+    margin-top: 100px;
+   
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+  }
