@@ -59,24 +59,31 @@ body {
     width: 780px;
     height:168px;
     font-family:"DM Sans", serif;
-    padding: 20px;
-    }
+    padding: 10px;
+    margin: 10px;
+  }
 
   .titulo-receta {
     font-family:"DM Serif Display", serif;
+      display: flex;
+      justify-content: flex-start;
+      font-size: 30px;
+      color: #7E4333;
     
   }
 
   .preparacion {
-    width: 780px;
+    width: 680px;
     height: 168px;
     background-color: #fff7fc;
     margin: auto;
     font-family:"DM Serif Display", serif;
+    padding: 50px;
   }
 
   .instrucciones {
     font-family:"DM Serif Display", serif;
+    margin: 10px;
     padding: 20px;
   }
  
