@@ -90,6 +90,12 @@ body {
   font-size: 30px;
   line-height: 0;
   margin-left: 10px;
+  cursor:pointer;
+}
+
+.nombre-receta:hover {
+  color:#255538;
+  
 }
 .subtitulo-recetas {
   width: 1239px;
@@ -116,6 +122,8 @@ footer {
 .academy {
   margin-left: 900px;
   
+}
 
-
+a {
+  all:unset;
 }

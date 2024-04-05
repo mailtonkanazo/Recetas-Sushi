@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 
 body {
   background-color: #f3e5d8;
-  font-family:"DM Serif Display", serif;
+  
 }
 
 .encabezado {
@@ -13,26 +15,80 @@ body {
     width: 100%;
     border-radius: 6px;
   }
+  .card-receta {
+    width: 820px;
+    min-height: 979px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family:"DM Sans", sans-serif;
+    justify-content: center;
 
-  .img {
+  }
+
+  .logo-receta {
+    width: 780px;
+    height: 287px;
+    border-radius: 5px;
+    margin:auto;
+    
+  }
+
+  .card-img {
     font-size: 40px;
     line-height: 70px;
-    width: 1239px;
-    height: 368px;
+    width: 780px;
+    height: 287px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 15px;
+    object-fit: cover;
+    
    
-    color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border-radius: 5px;
   }
+
 
   .logo {
     margin: 10px;
   }
 
   .enviar-receta {
-    margin-left: 500px;
+    margin-left: 500px;  
   }
+
+  .contenido-receta {
+    width: 780px;
+    height:168px;
+    font-family:"DM Sans", serif;
+    padding: 20px;
+    }
+
+  .titulo-receta {
+    font-family:"DM Serif Display", serif;
+    
+  }
+
+  .preparacion {
+    width: 780px;
+    height: 168px;
+    background-color: #fff7fc;
+    margin: auto;
+    font-family:"DM Serif Display", serif;
+  }
+
+  .instrucciones {
+    font-family:"DM Serif Display", serif;
+    padding: 20px;
+  }
+ 
+
+  footer {
+    background-color: #255538;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    
+  }
+
+  
+  
