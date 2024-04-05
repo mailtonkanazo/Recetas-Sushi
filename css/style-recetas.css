@@ -28,3 +28,11 @@ body {
     position: relative;
     border-radius: 5px;
   }
+
+  .logo {
+    margin: 10px;
+  }
+
+  .enviar-receta {
+    margin-left: 500px;
+  }

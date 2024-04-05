@@ -21,7 +21,8 @@ body {
 }
 
 .enviar-receta {
-  margin-left: 100px;
+  margin-left: 1100px;
+  
 }
 
 .hero-images {
@@ -39,6 +40,9 @@ body {
   position: relative;
   border-radius: 5px;
   
+}
+.logo {
+  margin: 10px;
 }
 
 .titulo-img {
@@ -99,4 +103,19 @@ body {
   justify-content: flex-start;
   font-size: 24px;
   color: #7E4333;
+}
+footer {
+  background-color: #255538;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  
+}
+
+.academy {
+  margin-left: 900px;
+  
+
+
 }
