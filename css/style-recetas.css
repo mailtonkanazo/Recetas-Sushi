@@ -83,8 +83,12 @@ body {
 
   .instrucciones {
     font-family:"DM Serif Display", serif;
-    margin: 10px;
-    padding: 20px;
+    
+  }
+
+  .contenido-receta {
+    font-family:"DM Sans", serif;
+    
   }
  
 
