@@ -1,112 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 body {
   background-color: #f3e5d8;
-  
 }
 
 .encabezado {
-    font-family:"DM Serif Display", serif;
-    background-color: #255538;
-    color: white;
-    display: flex;
-    width: 100%;
-    border-radius: 6px;
-  }
-  .card-receta {
-    width: 820px;
-    min-height: 979px;
-    margin-top: 50px;
-    background-color: #fff;
-    border-radius: 5px;
-    font-family:"DM Sans", sans-serif;
-    justify-content: center;
+  font-family: "DM Serif Display", serif;
+  background-color: #255538;
+  color: white;
+  display: flex;
+  width: 100%;
+  border-radius: 6px;
+}
 
-  }
+.contenedor {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.card-receta {
+  width: 820px;
+  min-height: 979px;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-family: "DM Sans", sans-serif;
+  justify-content: center;
+}
 
-  .logo-receta {
-    width: 780px;
-    height: 287px;
-    border-radius: 5px;
-    margin:auto;
-    
-  }
+.logo-receta {
+  width: 780px;
+  height: 287px;
+  border-radius: 5px;
+  margin: auto;
+}
 
-  .card-img {
-    font-size: 40px;
-    line-height: 70px;
-    width: 780px;
-    height: 287px;
-    margin: auto;
-    margin-top: 15px;
-    object-fit: cover;
-    
-   
-  }
+.card-img {
+  font-size: 40px;
+  line-height: 70px;
+  width: 780px;
+  height: 287px;
+  margin: auto;
+  margin-top: 15px;
+  object-fit: cover;
+}
 
+.logo {
+  margin: 10px;
+}
 
-  .logo {
-    margin: 10px;
-  }
+.enviar-receta {
+  margin-left: 500px;
+}
 
-  .enviar-receta {
-    margin-left: 500px;  
-  }
+.contenido-receta {
+  width: 780px;
+  height: 168px;
+  font-family: "DM Sans", serif;
+  padding: 10px;
+  margin: 10px;
 
-  .contenido-receta {
-    width: 780px;
-    height:168px;
-    font-family:"DM Sans", serif;
-    padding: 10px;
-    margin: 10px;
-  }
+}
 
-  .titulo-receta {
-    font-family:"DM Serif Display", serif;
-      display: flex;
-      justify-content: flex-start;
-      font-size: 30px;
-      color: #7E4333;
-    
-  }
-
-  .preparacion {
-    width: 680px;
-    height: 168px;
-    background-color: #fff7fc;
-    margin: auto;
-    font-family:"DM Serif Display", serif;
-    padding: 50px;
-    color: #7E4333;
-  }
-
-  .item {
-    color: black;
-  }
+.titulo-receta {
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+  color: #7e4333;
+  line-height: 5px;
+}
 
 
-  .instrucciones {
-    font-family:"DM Serif Display", serif;
-    color: #7E4333;
-    
-  }
+.preparacion {
+  width: 780px;
+  height: 168px;
+  background-color: #fff7fc;
+  margin: auto;
+  font-family: "DM Serif Display", serif;
 
-  .contenido-receta {
-    font-family:"DM Sans", serif;
-    color: black;
-  }
- 
+  color: #7e4333;
+}
 
-  footer {
-    background-color: #255538;
-    color: white;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    
-  }
+
+.t-preparacion {
+  margin: 20px;
+  padding-top: 20px;
+}
+
+
+.item {
+  color: black;
+}
+
+.instrucciones {
+  font-family: "DM Serif Display", serif;
+  color: #7e4333;
+}
+
+
+.t-instrucciones {
+  margin: 20px;
+  line-height: 15px;
+  padding-top: 10px;
+
+}
+
+
+.contenido-receta {
+  font-family: "DM Sans", serif;
+  color: black;
+}
+
+
+.card-ingredientes {
+  width: 400px;
+  height: 453px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+
+}
+
+
+.mas-recetas {
+  width: 400px;
+  height: 375px;
+  background-color: #fff;
+  margin-bottom: 50px;
+
+}
+
+
+.t-ingre {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 350px;
+  margin: auto;
+  line-height: 35px;
 
   
-  
+}
+
+
+.ingredientes-table {
+  border-bottom: #255538 1px solid;
+}
+
+
+.ingredientes-table1 {
+  border-bottom: #255538 1px solid;
+  text-align: end;
+
+}
+
+
+footer {
+  background-color: #255538;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
