@@ -79,16 +79,23 @@ body {
     margin: auto;
     font-family:"DM Serif Display", serif;
     padding: 50px;
+    color: #7E4333;
   }
+
+  .item {
+    color: black;
+  }
+
 
   .instrucciones {
     font-family:"DM Serif Display", serif;
+    color: #7E4333;
     
   }
 
   .contenido-receta {
     font-family:"DM Sans", serif;
-    
+    color: black;
   }
  
 
