@@ -19,6 +19,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-around;
 }
+
 .card-receta {
   width: 820px;
   min-height: 979px;
@@ -120,7 +121,7 @@ body {
   background-color: #fff;
   margin-bottom: 50px;
   margin-top: 50px;
-  
+
 
 }
 
@@ -142,7 +143,7 @@ body {
   margin: auto;
   line-height: 35px;
 
-  
+
 }
 
 
@@ -166,4 +167,26 @@ footer {
   border-radius: 5px;
 }
 
+.t-plus-recetas {
+  display: flex;
+  width: 370px;
+  background-color: red;
+  margin: auto;
+  align-items: center;
+  
 
+
+}
+
+.img--item {
+  width:70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+.titulo-item {
+  margin-right: 10px;
+
+}
