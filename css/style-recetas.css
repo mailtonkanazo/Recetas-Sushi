@@ -61,7 +61,6 @@ body {
   font-family: "DM Sans", serif;
   padding: 10px;
   margin: 10px;
-
 }
 
 .titulo-receta {
@@ -73,7 +72,6 @@ body {
   line-height: 5px;
 }
 
-
 .preparacion {
   width: 780px;
   height: 168px;
@@ -84,12 +82,12 @@ body {
   color: #7e4333;
 }
 
-
 .t-preparacion {
   margin: 20px;
   padding-top: 20px;
+  color: #7e4333;
+  font-family: "DM Sans", serif;
 }
-
 
 .item {
   color: black;
@@ -100,20 +98,17 @@ body {
   color: #7e4333;
 }
 
-
 .t-instrucciones {
   margin: 20px;
   line-height: 15px;
   padding-top: 10px;
-
+  color: #7e4333;
 }
-
 
 .contenido-receta {
   font-family: "DM Sans", serif;
   color: black;
 }
-
 
 .card-ingredientes {
   width: 400px;
@@ -121,19 +116,15 @@ body {
   background-color: #fff;
   margin-bottom: 50px;
   margin-top: 50px;
-
-
 }
-
 
 .mas-recetas {
   width: 400px;
   height: 375px;
   background-color: #fff;
   margin-bottom: 50px;
-
+  padding-top: 30px;
 }
-
 
 .t-ingre {
   display: grid;
@@ -142,22 +133,16 @@ body {
   width: 350px;
   margin: auto;
   line-height: 35px;
-
-
 }
-
 
 .ingredientes-table {
   border-bottom: #255538 1px solid;
 }
 
-
 .ingredientes-table1 {
   border-bottom: #255538 1px solid;
   text-align: end;
-
 }
-
 
 footer {
   background-color: #255538;
@@ -170,23 +155,28 @@ footer {
 .t-plus-recetas {
   display: flex;
   width: 370px;
-  background-color: red;
-  margin: auto;
+  height: 80px;
+  margin:auto;
   align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
   
-
-
 }
 
 .img--item {
-  width:70px;
+  width: 70px;
   height: 70px;
   margin-right: 10px;
   border-radius: 5px;
-
 }
 
 .titulo-item {
   margin-right: 10px;
+  font-family: "DM Serif Display", serif;
+  color: #7e4333;
+  
 
+}
+.contenido-item {
+  font-family: "DM Sans", serif;
 }
