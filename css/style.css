@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 
 body {
   background-color: #f3e5d8;
-  font-family:"DM Serif Display", serif;
+  font-family: "DM Serif Display", serif;
 }
 
 .dm-serif display-regular {
@@ -12,17 +12,30 @@ body {
 }
 
 .encabezado {
-  font-family:"DM Serif Display", serif;
+  font-family: "DM Serif Display", serif;
   background-color: #255538;
   color: white;
   display: flex;
   width: 100%;
   border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.enviar-receta {
-  margin-left: 1100px;
-  
+.btn-encabezado {
+  cursor: pointer;
+}
+
+.btn-encabezado:hover {
+  text-decoration: underline;
+}
+
+.modo-nocturno {
+  margin: 15px;
+  border-radius: 50%;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .hero-images {
@@ -39,10 +52,12 @@ body {
   background-size: cover;
   position: relative;
   border-radius: 5px;
-  
 }
+
 .logo {
   margin: 10px;
+  display: flex;
+  justify-self: flex-start;
 }
 
 .titulo-img {
@@ -52,16 +67,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-
 }
-.cards{
+
+.cards {
   display: flex;
   width: 1239px;
   margin: auto;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
+
 .card {
   border-radius: 5px;
   background-color: white;
@@ -83,47 +98,86 @@ body {
 .img-receta {
   display: flex;
   align-items: center;
-
 }
+
 .nombre-receta {
-  color: #7E4333;
+  color: #7e4333;
   font-size: 30px;
   line-height: 0;
   margin-left: 10px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .nombre-receta:hover {
-  color:#255538;
-  
+  color: #255538;
 }
+
 .subtitulo-recetas {
   width: 1239px;
   display: flex;
   margin: auto;
-
 }
 
 .subtitulo {
   display: flex;
   justify-content: flex-start;
   font-size: 24px;
-  color: #7E4333;
+  color: #7e4333;
 }
+
 footer {
   background-color: #255538;
   color: white;
   padding: 5px;
   margin: 10px;
   border-radius: 5px;
-  
 }
 
 .academy {
   margin-left: 900px;
-  
 }
 
 a {
-  all:unset;
+  all: unset;
+}
+
+@media screen and (max-width:600px) {
+  .encabezado {
+    width: 100%;
+    display: flex;
+
+  }
+
+  .hero-images {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/hero-sushi.jpeg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .titulo-img {
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
 }
