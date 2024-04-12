@@ -138,6 +138,7 @@ footer {
   display: flex;
   font-family: "Dm sans", serif;
   justify-content: flex-end;
+  
 }
 
 a {
@@ -149,7 +150,7 @@ a {
     width: 100%;
     display: flex;
   }
-}
+
   .hero-images {
     font-size: 20px;
     line-height: 30px;

@@ -133,6 +133,7 @@ h1 {
   background-color: #fff;
   margin-bottom: 50px;
   margin-top: 50px;
+  padding: 20px;
 }
 
 .mas-recetas {
@@ -141,6 +142,7 @@ h1 {
   background-color: #fff;
   margin-bottom: 50px;
   padding-top: 30px;
+  padding: 20px;
 }
 
 .t-ingre {
@@ -212,7 +214,7 @@ a {
     flex-direction: column;
     height: auto;
   }
-}
+
 
 .card-receta {
   width: 95vw;

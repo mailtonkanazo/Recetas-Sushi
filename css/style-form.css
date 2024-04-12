@@ -20,6 +20,11 @@ body {
   
 }
 
+.pagina-principal {
+  text-decoration: none;
+}
+
+
 @media screen and (max-width: 600px) {
   .contenedor {
     box-sizing: border-box;
