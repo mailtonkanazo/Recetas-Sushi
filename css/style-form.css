@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     height: auto;
   }
-
+}
   .btn-encabezado {
     cursor: pointer;
   }
@@ -109,15 +109,15 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .ref-2024 {
     display: flex;
     font-family: "Dm sans", serif;
     justify-content: flex-end;
     margin-right: 10px;
   }
-  
-  .cook{
+
+  .cook {
     margin-left: 10px;
   }
-}
+
