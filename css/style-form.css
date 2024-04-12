@@ -12,8 +12,44 @@ body {
   display: flex;
   width: 100%;
   border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagina-principal {
+  color:#fff;
+  
 }
 
+@media screen and (max-width: 600px) {
+  .contenedor {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.btn-encabezado {
+  cursor: pointer;
+}
+
+.btn-encabezado:hover {
+  text-decoration: underline;
+}
+
+.modo-nocturno {
+  margin: 15px;
+  border-radius: 50%;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 10px;
+  display: flex;
+  justify-self: flex-start;
+}
 .formulario {
   background-color: #fff;
   display: flex;
@@ -69,6 +105,14 @@ footer {
   background-color: #255538;
   color: white;
   padding: 5px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 5px;
+  
+}
+
+.academy {
+  display: flex;
+  font-family: "Dm sans", serif;
+  justify-content: flex-end;
+  
 }

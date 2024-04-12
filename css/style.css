@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 body {
   background-color: #f3e5d8;
@@ -134,20 +135,21 @@ footer {
 }
 
 .academy {
-  margin-left: 900px;
+  display: flex;
+  font-family: "Dm sans", serif;
+  justify-content: flex-end;
 }
 
 a {
   all: unset;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .encabezado {
     width: 100%;
     display: flex;
-
   }
-
+}
   .hero-images {
     font-size: 20px;
     line-height: 30px;
@@ -171,7 +173,6 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-
   }
 
   .cards {
@@ -179,5 +180,4 @@ a {
     flex-direction: column;
     margin: auto;
   }
-
 }
