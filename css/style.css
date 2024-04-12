@@ -126,19 +126,23 @@ body {
   color: #7e4333;
 }
 
-footer {
+.pie-de-pagina {
   background-color: #255538;
   color: white;
-  padding: 5px;
-  margin: 10px;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.academy {
+.ref-2024 {
   display: flex;
   font-family: "Dm sans", serif;
   justify-content: flex-end;
-  
+  margin-right: 10px;
+}
+
+.cook{
+  margin-left: 10px;
 }
 
 a {

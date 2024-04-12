@@ -163,18 +163,23 @@ h1 {
   text-align: end;
 }
 
-footer {
+.pie-de-pagina {
   background-color: #255538;
   color: white;
-  padding: 5px;
-  margin: 10px;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.academy {
+.ref-2024 {
   display: flex;
   font-family: "Dm sans", serif;
   justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.cook{
+  margin-left: 10px;
 }
 
 .t-plus-recetas {
@@ -215,30 +220,30 @@ a {
     height: auto;
   }
 
+  .card-receta {
+    width: 95vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.card-receta {
-  width: 95vw;
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
+  .card-img {
+    font-size: 20px;
+    line-height: 30px;
+    width: 85vw;
+    height: 287px;
+    margin-top: 15px;
+    object-fit: cover;
+    margin-left: 4%;
+  }
 
-.card-img {
-  font-size: 20px;
-  line-height: 30px;
-  width: 85vw;
-  height: 287px;
-  margin-top: 15px;
-  object-fit: cover;
-  margin-left: 4%;
-}
+  .contenido-receta {
+    width: 90vw;
+  }
 
-.contenido-receta {
-  width: 90vw;
-}
-
-.preparacion {
-  width: 95vw;
+  .preparacion {
+    width: 95vw;
+  }
 }
